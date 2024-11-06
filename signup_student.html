@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="signup-form">
+        <h2>Student Sign Up</h2>
+        <input type="text" placeholder="Name" required>
+        <input type="number" placeholder="Contact No." required>
+        <input type="email" placeholder="Email" required>
+        <input type="date" placeholder="Date of Birth"required>
+        <input type="number" placeholder="AKTU Roll No." required>
+        <input type="password" placeholder="Create Password" id="signup-password" required minlength="8"placeholder="8 characters Minimum"required>
+
+        <label for="Year">Select Year:</label>
+        <select id="Year"required>
+            <option
+            value="First">First</option>
+            <option
+            value="Second">Second</option>
+            <option
+            value="Third">Third</option>
+            <option
+            value="Fourth">Fourth</option>
+            
+        </select> 
+        <label for="Semester">Select Semester:</label>
+        <select id="Semester"required>
+            <option
+            value="First">First</option>
+            <option
+            value="Second">Second</option>
+            <option
+            value="Third">Third</option>
+            <option
+            value="Fourth">Fourth</option>
+            <option
+            value="Fifth">Fifth</option>
+            <option
+            value="sixth">sixth</option>
+            <option
+            value="Seventh">Seventh</option>
+            <option
+            value="Eighth">Eighth</option>
+            
+        </select> 
+        <button type="submit" onclick="return validateSignUpForm();">Sign Up</button>
+    </form>
+</body>
+</html>

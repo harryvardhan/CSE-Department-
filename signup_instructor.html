@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - Instructor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="signup-form">
+        <h2>Instructor Sign Up</h2>
+        <input type="text" placeholder="Name" required>
+        <input type="number" placeholder="Contact No." required>
+        <input type="email" placeholder="Email" required>
+        <input type="date" placeholder="Date of Birth"required>
+        <input type="password" placeholder="Create Password" id="signup-password" required minlength="8"placeholder="8 characters Minimum"required>
+        <label for="Course You Teach">Select Subject you Teach:</label>
+            <select id="Course You Teach" required>
+                <option
+                value="DBMS">DBMS</option>
+                <option
+                value="CG">CG</option>
+                <option
+                value="DAA">DAA</option>
+                <option
+                value="c">C</option>
+                <option
+                value="DSA">DSA</option>
+            </select>
+                
+        
+        <label for="Educational Qualification">Educational Qualificatio:</label>
+            <select id="Educational Qualification"required>
+                <option
+                value="Phd.">Phd.</option>
+                <option
+                value="Masters">Masters</option>
+                <option
+                value="Batchelors">Batchelors</option>
+            </select> 
+        
+    
+        <button type="submit" onclick="return validateSignUpForm();">Sign Up</button>
+    </form>
+</body>
+</html>

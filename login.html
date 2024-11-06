@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login - Pragati</title>
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form id="loginForm" onsubmit="return login()">
+                <label for="login as">login as: </label>
+                <select id="Course You Teach" required>
+                    <option
+                    value="Student">Student</option>
+                    <option
+                    value="Instructor">Instructor</option>
+                    <input type="email" placeholder="Enter your mail" required>
+                    <input type="password" placeholder="Enter Password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pragati Learning Platform. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
